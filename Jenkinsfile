@@ -6,7 +6,7 @@ pipeline {
       steps {
         git branch: 'master',
         credentialsId: 'github-credentials',
-        url: 'https://github.com/user/repo.git'
+        url: 'https://github.com/PrajaktaBankar/calaculator.git'
       }
     }
     stage('Build') {
